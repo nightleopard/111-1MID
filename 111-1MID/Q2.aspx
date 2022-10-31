@@ -12,7 +12,7 @@
         <div>
             <h1>保單電訪記錄</h1>
             紀錄編號:<asp:TextBox ID="tb_Num" runat="server"></asp:TextBox><br />
-            聯絡方式:<asp:RadioButtonList ID="rbl_Phone" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow">
+            聯絡方式:<asp:RadioButtonList ID="rbl_Phone" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow" AutoPostBack="True">
                 <asp:ListItem Text="手機" Selected="True"></asp:ListItem>
                 <asp:ListItem Text="市話"></asp:ListItem>
                 <asp:ListItem Text="無"></asp:ListItem>

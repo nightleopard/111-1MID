@@ -24,6 +24,14 @@ namespace _111_1MID {
                     dpl_City.Items.Add(a_C);
                 }
             }
+            if (rbl_Phone.Text == "無")
+            {
+                txt_Phone.Visible = false;
+            }
+            else
+            {
+                txt_Phone.Visible = true; ;
+            }
         }
 
         protected void dpl_City_SelectedIndexChanged(object sender, EventArgs e)
@@ -43,5 +51,6 @@ namespace _111_1MID {
                 dpl_Area.Items.Add(a_C);
             }
         }
+        
     }
 }
