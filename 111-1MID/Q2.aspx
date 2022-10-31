@@ -21,7 +21,7 @@
             縣市與區域:
             <asp:DropDownList ID="dpl_City" runat="server"></asp:DropDownList>
             <asp:DropDownList ID="dpl_Area" runat="server"></asp:DropDownList><br />
-            <asp:Button ID="Button1" runat="server" Text="Button" />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出" PostBackUrl="~/Q2_Sub.aspx" Width="80px" />
         </div>
     </form>
 </body>
